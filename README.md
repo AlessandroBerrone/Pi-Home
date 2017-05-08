@@ -14,7 +14,7 @@ Any HTTP server (apache2, nginx, lighttpd...)
 ### Installing
 
 ```
-Just clone the repository in your HTTP server document root (ex. /var/www/html and enjoy!
+Just clone the repository in your HTTP server document root (ex. /var/www/html) and enjoy!
 ```
 
 ## Authors
