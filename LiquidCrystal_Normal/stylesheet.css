@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'LiquidCrystal Normal';
+	src: url('LiquidCrystal-Normal.eot');
+	src: url('LiquidCrystal-Normal.eot?#iefix') format('embedded-opentype'),
+		url('LiquidCrystal-Normal.woff') format('woff'),
+		url('LiquidCrystal-Normal.ttf') format('truetype'),
+		url('LiquidCrystal-Normal.svg') format('svg');
+}
