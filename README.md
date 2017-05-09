@@ -7,18 +7,18 @@ Pi-Home: a simple HTML &amp; CSS Home Page for your Pi
 
 ### Prerequisites
 
->* Any HTTP server (apache2, nginx, lighttpd...)
+* Any HTTP server (apache2, nginx, lighttpd...)
 
 ### Installing
 
->* Just clone the repository in your HTTP server document root (ex. /var/www/html) and enjoy!
+* Just clone the repository in your HTTP server document root (ex. /var/www/html) and enjoy!
 
 ### Customize it!
 
->* Simply add/remove services adjusting the **top** percentage 
+* Simply add/remove services adjusting the **top** percentage 
 value in the CSS classes, then replace logo path, text and link in the 
 HTML part of the code.
->* Services logos should be around ~70px wide
+* Services logos should be around ~70px wide
 
 ## Authors
 
