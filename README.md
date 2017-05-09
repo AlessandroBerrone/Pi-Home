@@ -18,8 +18,7 @@ Just clone the repository in your HTTP server document root (ex. /var/www/html) 
 ```
 
 ### Customize it!
-
-```
+>
 * Simply add/remove services adjusting the **top** percentage 
 value in the CSS classes, then replace logo path, text and link in the 
 HTML part of the code.
