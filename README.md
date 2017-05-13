@@ -18,7 +18,6 @@ Pi-Home: a simple HTML &amp; CSS Home Page for your Pi
 * Simply add/remove services adjusting the **top** percentage 
 value in the CSS classes, then replace logo path, text and link in the 
 HTML part of the code.
-* Services logos should be around ~70px wide
 
 ## Authors
 
