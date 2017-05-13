@@ -8,118 +8,157 @@ Made by Alessandro Berrone, 2017
 Thanks to Openclipart.org for the Pi Board vectorial file.
 Thanks to fonts2u.com for the Liquid Crystal Normal font.
 -->
-	
-	<head>
-	<meta charset="utf-8">
-	<title>My Pi</title>
 
-	<link rel="icon" 
-       	type="image/png" 
-      	href="favicon.png">
+        <head>
+        <meta charset="utf-8">
+        <title>My Pi</title>
 
-	<style>
-		@import url("LiquidCrystal_Normal/stylesheet.css");
+        <link rel="icon"
+        type="image/png"
+        href="favicon.png">
 
-		/* links */
-		
-		a:link {color: white; text-decoration: none;}
-		a:visited {color: white;}
-		a:hover {color: dodgerblue;}
-		a:active {color: limegreen;}	
-		
-		/* body */	
-		
-		body
-		{ background : #35495E;
-		  background : rgba(53, 73, 94, 1);
-		  position : absolute ;
-		  left : 0px;
-		  top : 0px;
-		  width : auto;
-		  height : auto;}
+        <style>
+                @import url("LiquidCrystal_Normal/stylesheet.css");
 
-		
-		/* images */
-		
-		.pi_logo
-		{position : relative ;}
+                /* links */
 
-		.pi_board
-		
-		{position : fixed;
-		  right: 0;
-		  bottom:0;}
+                a:link {color: white; text-decoration: none;}
+                a:visited {color: white;}
+                a:hover {color: dodgerblue;}
+                a:active {color: limegreen;}
 
-	
-		/* content and small logos (background-image) */
-		
-		.Pi-Hole
-		{
-			font-family: "LiquidCrystal Normal";
-			font-size : 48px;
-			color : #FFFFFF;
-			color : rgb(255, 255, 255);
-			position : fixed;
-			left : 25%;
-			top : 34%;
-            		background-image: url('pi-hole.png');
-			background-repeat: no-repeat;
-			padding-left: 90px;  /* width of the image plus a little extra padding */}	
+                /* body */
 
-		.Sickrage
-		{
-			font-family: "LiquidCrystal Normal";
-			font-size : 48px;
-			text-decoration: none;
-			color : #FFFFFF;
-			color : rgb(255, 255, 255);
-			position : fixed;
-			left : 25%;
-			top : 45%;
-			background-image: url('sickrage.png');
-			background-repeat: no-repeat;
-			padding-left: 90px;  /* width of the image plus a little extra padding */}		
+                body
+                { background : #35495E;
+                  background : rgba(53, 73, 94, 1);
+                  position : absolute ;
+                  left : 0px;
+                  top : 0px;
+                  width : auto;
+                  height : auto;}
 
-		.Transmission
-		{
-			font-family: "LiquidCrystal Normal";
-			font-size : 48px;
-			text-decoration: none;
-			color : #FFFFFF;
-			color : rgb(255, 255, 255);
-			position : fixed;
-			left : 25%;
-			top : 56%;
-			background-image: url('transmission.png');
-			background-repeat: no-repeat;
-			padding-left: 90px;  /* width of the image plus a little extra padding */}		
-		
-		
-		</style>
 
-	</head>
+                /* images */
 
-	<body>
+                .pi_logo
+                {
+				position : fixed ;
+				left: 7px;
+				top: 10px;
+				}
 
-	<!--Images-->
+                .pi_board
 
-		<div class="pi_board">
-		<img src="pi_board.png" width="475" height="325" alt=""/></div>
-	
-		<div class="pi_logo">
-		<img src="pi_logo.png" width="154" height="186" alt=""/></div>
+                {position : fixed;
+                  right: 0;
+                  bottom:0;}
 
-	<!--Links-->
 
-		<div class=Pi-Hole>
-		<a href="http://raspberrypi:6020/admin">6020 - Pi-Hole</a></div>
+                /* content and small logos (background-image) */
 
-		<div class=Sickrage>
-			<a href="http://raspberrypi:6021">6021 - SICKRAGE</a></div>
-	
-		<div class=Transmission>
-		<a href="http://raspberrypi:6022">6022 - Transmission</a></div>
+                .Pi-Hole
+                {
+                        font-family: "LiquidCrystal Normal";
+                        font-size : 60px;
+                        color : #FFFFFF;
+                        color : rgb(255, 255, 255);
+                        position : fixed;
+                        left : 30%;
+                        top : 30%;
+                        background-image: url('pi-hole.png');
+                        background-repeat: no-repeat;
+                        padding-left: 90px;  /* width of the image plus a little extra padding */}
 
-	</body>
+                .Sonarr
+                {
+                        font-family: "LiquidCrystal Normal";
+                        font-size : 60px;
+                        text-decoration: none;
+                        color : #FFFFFF;
+                        color : rgb(255, 255, 255);
+                        position : fixed;
+                        left : 30%;
+                        top : 53%;
+                        background-image: url('son.png');
+                        background-repeat: no-repeat;
+                        padding-left: 90px;  /* width of the image plus a little extra padding */}
+
+                .Transmission
+                {
+                        font-family: "LiquidCrystal Normal";
+                        font-size : 60px;
+                        text-decoration: none;
+                        color : #FFFFFF;
+                        color : rgb(255, 255, 255);
+                        position : fixed;
+                        left : 30%;
+                        top : 64%;
+                        background-image: url('trans.png');
+                        background-repeat: no-repeat;
+                        padding-left: 90px;  /* width of the image plus a little extra padding */}
+			
+			  	.Radarr
+                {
+                        font-family: "LiquidCrystal Normal";
+                        font-size : 60px;
+                        text-decoration: none;
+                        color : #FFFFFF;
+                        color : rgb(255, 255, 255);
+                        position : fixed;
+                        left : 30%;
+                        top : 42%;
+                        background-image: url('rad.png');
+                        background-repeat: no-repeat;
+                        padding-left: 90px;  /* width of the image plus a little extra padding */}
+			
+			.Github
+                {
+                        font-family: "Calibri";
+						font-style: italic;
+                        font-size : 20px;
+                        text-decoration: none;
+                        color : #FFFFFF;
+                        color : rgb(255, 255, 255);
+                        position : fixed;
+                        right : 7px;
+                        top : 10px;
+                        background-image: url('github.png');
+                        background-repeat: no-repeat;
+                        padding-left: 25px;  /* width of the image plus a little extra padding */}
+
+
+                </style>
+
+        </head>
+
+        <body>
+
+        <!--Images-->
+
+                <div class="pi_board">
+                <img src="pi_board.png" width="475" height="325" alt=""/></div>
+
+                <div class="pi_logo">
+                <a href="."><img src="pi_logo.png" width="154" height="236" alt=""/></a></div>
+
+        <!--Links-->
+
+                <div class=Pi-Hole>
+                <a href="pihole/">Pi-Hole</a></div>
+
+                <div class=Sonarr>
+                        <a href="sonarr/">Sonarr</a></div>
+
+                <div class=Transmission>
+                <a href="transmission/">Transmission</a></div>
+                
+                <div class=Radarr>
+                <a href="radarr/">Radarr</a></div>
+                
+                <div class=Github>
+                <a href="https://github.com/AlessandroBerrone/Pi-Home">https://github.com/AlessandroBerrone/Pi-Home</a></div>
+
+        </body>
 
 </html>
