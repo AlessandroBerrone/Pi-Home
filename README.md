@@ -1,7 +1,7 @@
 # Pi-Home
 Pi-Home: a simple HTML &amp; CSS Home Page for your Pi
 
-![Pi-Home UI](http://i.imgur.com/SuMP595.png "Pi-Home UI")
+![Pi-Home UI](http://i.imgur.com/dEUp0dJ.png "Pi-Home UI")
 
 ## Getting Started
 
